@@ -25,6 +25,10 @@ module.exports = {
           },
         },
       },
+
+      colors: {
+        bg: "#121212",
+      }
     },
   },
   plugins: [addVariablesForColors],
