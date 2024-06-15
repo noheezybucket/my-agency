@@ -17,10 +17,10 @@ export function AuroraBackgroundDemo() {
                         duration: 0.8,
                         ease: "easeInOut",
                     }}
-                    className="relative flex flex-col gap-4  justify-center w-9/12"
+                    className="relative flex flex-col gap-4  justify-center items-center"
                 >
-                    <div className="text-3xl md:text-6xl font-bold dark:text-white">
-                        L'art du digital sur mesure pour votre succès en ligne.
+                    <div className="text-3xl md:text-6xl font-bold dark:text-white leading-5 text-center">
+                        Choisissez-nous pour une transformation digitale assurée.
                     </div>
                     <div className="font-extralight text-base md:text-2xl dark:text-neutral-200 py-4">
                         And this, is chemical burn.
@@ -29,7 +29,6 @@ export function AuroraBackgroundDemo() {
                         Découvrez Shift
                     </button>
                 </motion.div>
-                <div className="w-3/12">efdfdfd</div>
             </div>
 
         </AuroraBackground>

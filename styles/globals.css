@@ -13,5 +13,10 @@ body {
 }
 
 .primary-btn {
-  @apply bg-black dark:bg-white rounded-md w-fit text-white dark:text-black px-4 py-2
+  @apply bg-transparent border  dark:border-white rounded-md w-fit text-white dark:text-white px-4 py-2
 }
+
+.big-title {
+  @apply text-7xl
+}
+
