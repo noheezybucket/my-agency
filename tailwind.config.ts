@@ -27,10 +27,19 @@ module.exports = {
       },
 
       colors: {
-        bg: "#121212",
+        bg: "#000",
         color1: "#FDCA32",
         color2: "#fff",
         color3: "#2A63AC"
+      },
+
+      backgroundImage : {
+        hero : "url('/assets/hero.png')",
+        ai : "url('/assets/ai2.png')",
+        social : "url('/assets/social.png')",
+        web : "url('/assets/web.png')",
+        mobile : "url('/assets/mobile.png')",
+        design : "url('/assets/design.png')"
       }
     },
   },

@@ -1,34 +1,31 @@
 import { cn } from "@/utils/cn";
-import { LampDemo } from "../components/Hero";
+import {Hero} from "../components/Hero";
+import AboutSection from "@/components/about-us/about-section";
+import Services from "@/components/services/Services";
 
 export default function Home() {
   return (
-    <main className={cn("dark:bg-bg dark:text-white grain")}>
-      <LampDemo />
+      <main className={cn("dark:text-white grain space-y-32")}>
 
-      <section >
-        <div className="mx-auto w-10/12 rounded-lg h-[50vh]">
-          <h2 className="big-title text-center">A propos de nous...</h2>
-        </div>
-      </section>
+          <Hero/>
+          <AboutSection/>
+          <Services/>
 
-      <section >
-        <div className="mx-auto w-10/12 rounded-lg h-[50vh]">
-          <h2 className="big-title text-center">Services</h2>
-        </div>
-      </section>
 
-      <section >
-        <div className="mx-auto w-10/12 rounded-lg h-[50vh]">
-          <h2 className="big-title text-center">Réalisati</h2>
-        </div>
-      </section>
+          {/*<section >*/}
+          {/*  <div className="mx-auto w-10/12 rounded-lg h-[50vh]">*/}
+          {/*    <h2 className="big-title text-center">Réalisati</h2>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
 
-      <section >
-        <div className="mx-auto w-10/12 rounded-lg h-[50vh]">
-          <h2 className="big-title text-center">Contact</h2>
-        </div>
-      </section>
-    </main>
+          {/*<section >*/}
+          {/*  <div className="mx-auto w-10/12 rounded-lg h-[50vh]">*/}
+          {/*    <h2 className="big-title text-center">Contact</h2>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
+
+          <div className={'h-[50vh]'}></div>
+
+      </main>
   );
 }
