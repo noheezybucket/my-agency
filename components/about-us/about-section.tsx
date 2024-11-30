@@ -7,7 +7,7 @@ const AboutSection = () => {
                 {/*<h2 className="section-title">*/}
                 {/*    ABOUT US*/}
                 {/*</h2>*/}
-                <p className={'text-2xl font-thin leading-10 text-justify'}>
+                <p className={'text2xl lg:text-2xl font-thin lg:leading-10 text-justify'}>
                     At ZOOM!, we’re passionate about crafting impactful digital experiences that set brands apart.
                     With expertise spanning design, branding, social media management, and web & mobile development,
                     we offer a complete suite of services to help you achieve your business goals. Our team of creative

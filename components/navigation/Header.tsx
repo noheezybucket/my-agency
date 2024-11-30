@@ -5,8 +5,8 @@ import {HoverBorderGradient} from "@/components/ui/hover-gradient-border";
 
 const Header = () => {
     return (
-        <header className="fixed z-50 w-full text-white top-4">
-            <div className='section-width flex justify-between items-center rounded-lg p-2 bg-white/10 backdrop-blur'>
+        <header className="fixed w-full text-white top-4 z-[999]">
+            <div className='section-width flex justify-between items-center rounded-lg py-2 '>
                 <Logo />
                 <nav>
                     <ul className='flex space-x-5 items-center font-thin'>

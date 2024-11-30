@@ -1,23 +1,24 @@
 import React from 'react'
-import {HoverBorderGradient} from "@/components/ui/hover-gradient-border";
+import { HoverBorderGradient } from "@/components/ui/hover-gradient-border";
+import { ServiceScroll } from "@/components/services/services-scroll";
 
 const services = [
     {
-        title : 'Software Development',
+        title: 'Software Development',
         classname: `bg-web h-[35vh] bg-cover relative rounded-xl`
     },
     {
-        title : 'Design',
+        title: 'Branding & Design',
         classname: `bg-design h-[35vh] bg-cover relative rounded-xl`
 
     },
     {
-        title : 'Social Media Management',
+        title: 'Social Media Management',
         classname: `bg-social h-[35vh] bg-cover relative rounded-xl`
 
     },
     {
-        title : 'AI Automation',
+        title: 'AI Automation',
         classname: `bg-ai h-[35vh] bg-cover relative rounded-xl`
 
     },
@@ -38,7 +39,7 @@ const Services = () => {
 
                 <div className={'grid grid-cols-2 gap-10'}>
                     {
-                        services.map((service,index) => (
+                        services.map((service, index) => (
                             <div key={index} className={service.classname}>
                                 <div className={'absolute w-full h-full bg-black/50 z-0'}></div>
                                 <div className={'p-5 rounded-xl flex flex-col justify-between h-full'}>
@@ -48,9 +49,8 @@ const Services = () => {
                                         </h2>
                                         <ul className={'list-inside list-disc'}>
                                             <li>bullet one</li>
-                                            <li>bullet one</li>
-                                            <li>bullet one</li>
-                                            <li>bullet one</li>
+                                            <li>bullet two</li>
+
                                         </ul>
                                     </div>
 
@@ -58,7 +58,7 @@ const Services = () => {
                                         <HoverBorderGradient
                                             containerClassName="rounded-xl border-neutral-500 border-1"
                                             as="button"
-                                            className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+                                        // className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                                         >
                                             See Process & Pricing
                                         </HoverBorderGradient>

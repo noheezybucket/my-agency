@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 * {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Electrolize", sans-serif;
 }
 
 body{
 	background-color: #000000;
 }
 .section-width {
-	@apply mx-auto w-11/12;
+	@apply mx-auto w-10/12;
 }
 
 .section-title {
