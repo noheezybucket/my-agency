@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 * {
-  font-family: "Electrolize", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 body{
 	background-color: #000000;
 }
 .section-width {
-	@apply mx-auto w-10/12;
+	@apply mx-auto w-11/12 lg:w-10/12;
 }
 
 .section-title {
@@ -47,11 +47,12 @@ body{
 }
 
 .mouse {
-	width: 30px;
-	height: 60px;
+	width: 20px;
+	height: 40px;
 	border: 1px solid #fff;
 	border-radius: 60px;
 	position: relative;
+
 	&::before {
 		content: '';
 		width: 7px;
@@ -71,14 +72,14 @@ body{
 @keyframes wheel {
 	to {
 		opacity: 0;
-		top: 40px;
+		top: 30px;
 	}
 }
 
 @-webkit-keyframes wheel {
 	to {
 		opacity: 0;
-		top: 40px;
+		top: 30px;
 	}
 }
 

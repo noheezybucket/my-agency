@@ -9,11 +9,11 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 export function Hero() {
     return (
         <div className="relative h-[100vh] bg-hero bg-center bg-fixed rounded-b-[10%] border-b border-neutral-700">
-            <TextHoverEffect text={'artisan'} automatic={true} />
-            <motion.div
+            <TextHoverEffect text={"d'artisan"} automatic={true} />
+            {/* <motion.div
                 className="absolute bottom-32 left-[50%] translate-x-[-50%]">
                 <Scroll />
-            </motion.div>
+            </motion.div> */}
         </div>
     );
 }

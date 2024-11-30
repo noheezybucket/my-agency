@@ -3,9 +3,9 @@ import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export const TextHoverEffect = ({
-                                    text,
-                                    duration,
-                                }: {
+    text,
+    duration,
+}: {
     text: string;
     duration?: number;
     automatic?: boolean;
@@ -65,13 +65,13 @@ export const TextHoverEffect = ({
                     animate={maskPosition}
                     transition={{ duration: duration ?? 0, ease: "easeOut" }}
 
-                    // example for a smoother animation below
+                // example for a smoother animation below
 
-                    //   transition={{
-                    //     type: "spring",
-                    //     stiffness: 300,
-                    //     damping: 50,
-                    //   }}
+                //   transition={{
+                //     type: "spring",
+                //     stiffness: 300,
+                //     damping: 50,
+                //   }}
                 >
                     <stop offset="0%" stopColor="white" />
                     <stop offset="100%" stopColor="black" />
@@ -128,6 +128,7 @@ export const TextHoverEffect = ({
             >
                 {text}
             </text>
+            <p>pjfojapo</p>
         </svg>
     );
 };

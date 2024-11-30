@@ -1,7 +1,7 @@
 import { cn } from '@/utils/cn'
 import React from 'react'
 import Logo from '../Logo'
-import {HoverBorderGradient} from "@/components/ui/hover-gradient-border";
+import { HoverBorderGradient } from "@/components/ui/hover-gradient-border";
 
 const Header = () => {
     return (
@@ -12,13 +12,15 @@ const Header = () => {
                     <ul className='flex space-x-5 items-center font-thin'>
                         <li>services</li>
                         <li>about us</li>
+                        <li>portfolio</li>
+
                         <li>
                             <HoverBorderGradient
                                 containerClassName="rounded-xl border-neutral-500 border-1 "
                                 as="button"
                                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                             >
-                            start project
+                                start project
                             </HoverBorderGradient>
                         </li>
                     </ul>

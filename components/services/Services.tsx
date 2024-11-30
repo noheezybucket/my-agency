@@ -5,29 +5,32 @@ import { ServiceScroll } from "@/components/services/services-scroll";
 const services = [
     {
         title: 'Software Development',
-        classname: `bg-web h-[35vh] bg-cover relative rounded-xl`
+        classname: `bg-web h-[35vh] bg-cover relative rounded-xl border border-neutral-700 overflow-hidden`,
+        details: ['Landing page', 'E-commerce website', 'Web Application', 'X-Platform Mobile Application']
     },
+    // {
+    //     title: 'Branding & Design',
+    //     classname: `bg-design h-[35vh] bg-cover relative rounded-xl`,
+    //     details: ['Landing Page', 'E-commerce Site', 'Web Application', 'X-Platform Mobile Application']
+    // },
     {
-        title: 'Branding & Design',
-        classname: `bg-design h-[35vh] bg-cover relative rounded-xl`
+        title: 'Social Media',
+        classname: `bg-social h-[35vh] bg-cover relative rounded-xl  border border-neutral-700 overflow-hidden`,
+        details: ['Content Creation', 'Social Media Management', 'Reel Creation']
+
 
     },
-    {
-        title: 'Social Media Management',
-        classname: `bg-social h-[35vh] bg-cover relative rounded-xl`
-
-    },
-    {
-        title: 'AI Automation',
-        classname: `bg-ai h-[35vh] bg-cover relative rounded-xl`
-
-    },
+    // {
+    //     title: 'AI Automation',
+    //     classname: `bg-ai h-[35vh] bg-cover relative rounded-xl`,
+    //     details: ['Landing Page', 'E-commerce Site', 'Web Application', 'X-Platform Mobile Application']
+    // },
 ]
 
 const Services = () => {
     return (
         <section>
-            <div className="section-width rounded-lg h-[50vh] space-y-10">
+            <div className="section-width rounded-lg  space-y-10">
                 <div>
                     <h2 className="section-title">
                         OUR EXPERTISE
@@ -43,13 +46,16 @@ const Services = () => {
                             <div key={index} className={service.classname}>
                                 <div className={'absolute w-full h-full bg-black/50 z-0'}></div>
                                 <div className={'p-5 rounded-xl flex flex-col justify-between h-full'}>
-                                    <div className={' z-50'}>
+                                    <div className={' z-50 space-y-2'}>
                                         <h2 className={'text-3xl font-bold'}>
                                             {service.title}
                                         </h2>
                                         <ul className={'list-inside list-disc'}>
-                                            <li>bullet one</li>
-                                            <li>bullet two</li>
+                                            {
+                                                service.details.map((detail, index) => (
+                                                    <li key={index}>{detail}</li>
+                                                ))
+                                            }
 
                                         </ul>
                                     </div>

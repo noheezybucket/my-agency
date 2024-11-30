@@ -8,12 +8,12 @@ const AboutSection = () => {
                 {/*    ABOUT US*/}
                 {/*</h2>*/}
                 <p className={'text2xl lg:text-2xl font-thin lg:leading-10 text-justify'}>
-                    At ZOOM!, we’re passionate about crafting impactful digital experiences that set brands apart.
+                    At <b>Dartisan Studio</b>, we’re passionate about crafting impactful digital experiences that set brands apart.
                     With expertise spanning design, branding, social media management, and web & mobile development,
                     we offer a complete suite of services to help you achieve your business goals. Our team of creative
                     thinkers and tech experts brings a unique approach to each project, ensuring that every detail aligns
                     with your brand vision. Whether you’re looking to refresh your visual identity, grow your social media presence,
-                    or develop a custom web or mobile solution, ZOOM! is here to make it happen. Let’s bring your ideas to life and make
+                    or develop a custom web or mobile solution, <b>Dartisan Studio</b> is here to make it happen. Let’s bring your ideas to life and make
                     an impact together.
                 </p>
             </div>
