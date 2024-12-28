@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Amulya&family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Syne:wght@400..800&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Syne", sans-serif;
 }
 
 body{
 	background-color: #000000;
 }
 .section-width {
-	@apply mx-auto w-11/12 lg:w-10/12;
+	@apply mx-auto w-11/12 lg:w-9/12;
 }
 
 .section-title {
@@ -47,9 +50,10 @@ body{
 }
 
 .mouse {
+	@apply border border-white/50;
 	width: 20px;
 	height: 40px;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	border-radius: 60px;
 	position: relative;
 

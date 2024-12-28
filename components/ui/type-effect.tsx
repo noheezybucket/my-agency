@@ -128,7 +128,6 @@ export const TextHoverEffect = ({
             >
                 {text}
             </text>
-            <p>pjfojapo</p>
         </svg>
     );
 };
