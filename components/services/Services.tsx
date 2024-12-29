@@ -36,17 +36,17 @@ const Services = () => {
         <section>
             <div className="section-width rounded-lg  space-y-10 ">
 
-                <div className={'border-b border-neutral-700 pb-3'}>
-                    <h2 className="section-title text-center">
-                        OUR EXPERTISE
-                    </h2>
-                    <p className={'font-thin text-center text-lg'}>
-                        Discover how we can elevate your brand.
+                {/*<div className={'border-b border-neutral-700 pb-3'}>*/}
+                {/*    <h2 className="section-title text-center">*/}
+                {/*        OUR EXPERTISE*/}
+                {/*    </h2>*/}
+                {/*    <p className={'font-thin text-center text-lg'}>*/}
+                {/*        Discover how we can elevate your brand.*/}
 
-                    </p>
-                </div>
+                {/*    </p>*/}
+                {/*</div>*/}
 
-                <div className={'grid lg:grid-cols-2 justify-center  gap-4'}>
+                <div className={'grid lg:grid-cols-2 justify-center  gap-10'}>
                     {
                         services.map((service, index) => (
                             <div key={index} className={`${service.classname} flex p-5 gap-5 z-0`}>

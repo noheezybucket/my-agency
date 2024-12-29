@@ -14,7 +14,7 @@ export function Hero() {
             <div className={'section-width space-y-5'} >
                 <div>
                     <span className={'text-lg'}>WELCOME TO DIGITAL ARTISAN STUDIO</span>
-                    <h1 className={'text-white font-extrabold text-3xl lg:text-6xl'}>
+                    <h1 className={'text-white font-extrabold text-3xl lg:text-6xl xl:text-7xl'}>
                         WE CRAFT IMPACTFUL DIGITAL EXPERIENCES THAT SET BRANDS APART.
                     </h1>
                 </div>
