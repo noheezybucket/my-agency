@@ -4,10 +4,10 @@ import Logo from '../Logo'
 
 const Footer = () => {
     return (
-        <footer className={cn("dark:bg-bg dark:text-white py- space-y-10 mb-28 bg-hero bg-fixed bg-cover bg-center")}>
-            <div className="mx-auto section-width   rounded-lg grid grid-cols-3 p-4 gap-10 border border-neutral-700">
+        <footer className={cn("dark:bg-bg dark:text-white py- space-y-10 mb-28")}>
+            <div className="mx-auto section-width   rounded-lg grid lg:grid-cols-3 p-4 gap-10  bg-hero bg-fixed bg-cover bg-center border border-neutral-700 ">
 
-                <div className='text-left flex flex-col gap-2'>
+                <div className='text-center lg:text-left flex flex-col gap-2'>
                     <h3 className={'font-extrabold'}>CONTACTS</h3>
 
                     <ul className={'text-lg'}>
@@ -27,7 +27,7 @@ const Footer = () => {
 
 
                 </div>
-                <div className={'text-right flex flex-col gap-2'}>
+                <div className={'text-center lg:text-right flex flex-col gap-2'}>
                 <h3 className={'font-extrabold'}>NAVIGATION</h3>
                     <ul className={'text-lg'}>
                         <li>accueil</li>

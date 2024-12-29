@@ -2,8 +2,7 @@ import { cn } from "@/utils/cn";
 import {Hero} from "@/components/Hero";
 import AboutSection from "@/components/about-us/about-section";
 import Services from "@/components/services/Services";
-import {AnimatedTestimonials} from "@/components/ui/animated-testimonials";
-import {AnimatedTestimonialsDemo} from "@/components/Testimonials";
+
 
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
           {/*  </div>*/}
           {/*</section>*/}
 
-          <div className={'h-[10vh]'}></div>
+          <div className={'h-[5vh]'}></div>
 
       </main>
   );

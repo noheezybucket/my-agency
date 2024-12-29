@@ -24,7 +24,7 @@ const services = [
         icon: <IconDeviceMobile size={45} stroke={1.3} color={'black'}/>
     },
     {
-        title: 'Podcast Recording',
+        title: 'Podcast',
         classname: `rounded-xl border border-neutral-700 overflow-hidden`,
         details: ['Audio/Video Recording', 'Brainstorming', 'Publish'],
         icon: <IconMicrophone2 size={45} stroke={1.3} color={'black'}/>
@@ -46,7 +46,7 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className={'grid grid-cols-2 justify-center  gap-4'}>
+                <div className={'grid lg:grid-cols-2 justify-center  gap-4'}>
                     {
                         services.map((service, index) => (
                             <div key={index} className={`${service.classname} flex p-5 gap-5 z-0`}>
@@ -54,7 +54,7 @@ const Services = () => {
 
                                 <div className={'rounded-xl flex flex-col justify-between h-full'}>
                                     <div className={'space-y-5'}>
-                                        <div className={'flex items-center justify-center gap-2'}>
+                                        <div className={'flex items-center gap-2'}>
                                             <div className={'bg-white rounded-xl p-1'}>
                                                 {service.icon}
                                             </div>

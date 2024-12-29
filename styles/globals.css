@@ -19,7 +19,7 @@ body{
 }
 
 .section-title {
-	@apply text-4xl font-bold
+	@apply text-2xl font-extrabold
 }
 
 .primary-btn {

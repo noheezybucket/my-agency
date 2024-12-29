@@ -14,12 +14,12 @@ export function Hero() {
             <div className={'section-width space-y-5'} >
                 <div>
                     <span className={'text-lg'}>WELCOME TO DIGITAL ARTISAN STUDIO</span>
-                    <h1 className={'text-white font-extrabold text-7xl'}>
+                    <h1 className={'text-white font-extrabold text-3xl lg:text-6xl'}>
                         WE CRAFT IMPACTFUL DIGITAL EXPERIENCES THAT SET BRANDS APART.
                     </h1>
                 </div>
 
-                <div className={'flex gap-5'}>
+                <div className={'flex flex-col lg:flex-row gap-5'}>
                     <div>
                         <HoverBorderGradient
                             containerClassName="rounded-xl border-neutral-500 border-1 "
